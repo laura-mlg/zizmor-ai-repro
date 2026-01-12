@@ -1,0 +1,12 @@
+inherit_from: https://raw.githubusercontent.com/q-centrix/style-guides/main/ruby/.rubocop-1-60-all.yml
+
+RSpec:
+  Language:
+    Examples:
+      Regular:
+      - has_permissions
+      - has_no_permissions
+
+GraphQL/ObjectDescription:
+  Exclude:
+    - app/graphql/mixins/*.rb
