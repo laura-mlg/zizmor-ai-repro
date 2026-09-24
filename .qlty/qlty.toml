@@ -60,9 +60,6 @@ mode = "comment"
 name = "default"
 default = true
 
-[[plugin]]
-name = "rubocop"
-drivers = ["lint", "format"]
 
 [smells.function_complexity]
 enabled = false
