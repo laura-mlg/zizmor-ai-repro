@@ -60,6 +60,3 @@ mode = "disabled"
 name = "default"
 default = true
 
-[[plugin]]
-name = "rubocop"
-drivers = ["lint", "format"]
